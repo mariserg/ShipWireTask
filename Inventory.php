@@ -47,7 +47,7 @@ class Inventory{
      * @param (string) $product
      * @param (int) $quantity
      *
-     * @return (bool) -- true if inventory is empty
+     * @return (bool) -- true if is able to allocate requested quantity of the requested product
      */
     public function fulfill($product, $quantity){
         if (($this->inventory[$product] - $quantity) < 0){
