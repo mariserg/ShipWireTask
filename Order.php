@@ -60,7 +60,7 @@ class Order{
         return $this->sourceOrderID;
     }
 
-    /* serializeOrder
+    /* internalSerializeOrder
     *
     * @return (string) serialized order for internal storage
     */
